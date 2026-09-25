@@ -875,7 +875,7 @@ const ScrollIntro = () => {
         ======================================== */}
 
         <div ref={introRef} className="apps-intro">
-          <span className="eyebrow">SCOOBYZ APPS</span>
+          {/* <span className="eyebrow">SCOOBYZ APPS</span> */}
 
           <h1>
             Everything your dog
@@ -1240,9 +1240,9 @@ const ScrollIntro = () => {
 
 
           .apps-intro {
-            left: 6%;
+            // left: 6%;
 
-            right: 6%;
+            // right: 6%;
 
             bottom: 10%;
           }

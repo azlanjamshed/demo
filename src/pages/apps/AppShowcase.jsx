@@ -428,8 +428,10 @@ import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import customerApp from "../../assets/hero.png";
-import partnerApp from "../../assets/hero.png";
+import customerApp from "../../assets/user.jpeg";
+import partnerApp from "../../assets/vendor.jpeg";
+import { IoIosAppstore } from "react-icons/io";
+import { IoLogoGooglePlaystore } from "react-icons/io5";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -680,7 +682,9 @@ const AppShowcase = () => {
                 {/* App Store */}
 
                 <a href="#" className="store-link">
-                  <span className="store-icon">●</span>
+                  <span className="store-icon">
+                    <IoIosAppstore />
+                  </span>
 
                   <span>
                     <small>Download on the</small>
@@ -696,7 +700,9 @@ const AppShowcase = () => {
                   rel="noreferrer"
                   className="store-link"
                 >
-                  <span className="store-icon">▶</span>
+                  <span className="store-icon">
+                    <IoLogoGooglePlaystore />
+                  </span>
 
                   <span>
                     <small>GET IT ON</small>
@@ -780,7 +786,9 @@ const AppShowcase = () => {
                 {/* App Store */}
 
                 <a href="#" className="store-link">
-                  <span className="store-icon">●</span>
+                  <span className="store-icon">
+                    <IoIosAppstore />
+                  </span>
 
                   <span>
                     <small>Download on the</small>
@@ -796,7 +804,9 @@ const AppShowcase = () => {
                   rel="noreferrer"
                   className="store-link"
                 >
-                  <span className="store-icon">▶</span>
+                  <span className="store-icon">
+                    <IoLogoGooglePlaystore />
+                  </span>
 
                   <span>
                     <small>GET IT ON</small>
@@ -1366,7 +1376,7 @@ const AppShowcase = () => {
             Helvetica,
             sans-serif;
 
-          font-size: 9px;
+          font-size: 13px;
 
           font-weight: 600;
 
@@ -1467,7 +1477,7 @@ const AppShowcase = () => {
         }
 
         .store-icon {
-          font-size: 12px;
+          font-size: 30px;
         }
 
         .store-link span:last-child {

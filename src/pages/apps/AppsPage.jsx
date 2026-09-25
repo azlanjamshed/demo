@@ -1,11 +1,13 @@
 import ScrollIntro from "./ScrollIntro";
 import AppShowcase from "./AppShowcase";
+import FoundersSection from "../../components/FoundersSection";
 
 const AppsPage = () => {
   return (
     <>
       <ScrollIntro />
       <AppShowcase />
+      <FoundersSection />
 
       <style>{`
         .scoobyz-app-page {
