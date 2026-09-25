@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+:root {
+  --scoobyz-cream: #f5ede2;
+  --scoobyz-ivory: #faf4ea;
+  --scoobyz-beige: #ebe5d9;
+  --scoobyz-green: #446040;
+  --scoobyz-blue: #50749b;
+  --scoobyz-light-blue: #b8d1df;
+  --scoobyz-text: #1f2a33;
+  --scoobyz-muted: #5f625f;
+  --scoobyz-border: #d9d2c7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--scoobyz-cream);
+  color: var(--scoobyz-text);
+  font-family: var(--font-sans), sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-serif), serif;
+}
+
+.font-sans {
+  font-family: var(--font-sans), sans-serif;
+}
+
+::selection {
+  background: #446040;
+  color: #f5ede2;
+}
